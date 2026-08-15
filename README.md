@@ -279,7 +279,7 @@ funTab:CreateButton({
 
 local adminTab = window:CreateTab({ name = "Admin", icon = 93364949241311 })
 
-admintab:CreateSection({ Name = "Admin" })
+adminTab:CreateSection({ Name = "Admin" })
 
 adminTab:CreateButton({
     name = "Admin Panel 1",
