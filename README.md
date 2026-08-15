@@ -246,7 +246,7 @@ fescriptsTab:CreateButton({
 })
 
 fescriptsTab:CreateButton({
-    name = "R6 Emotes",
+    name = "R6 Animations",
     callback = function()
         loadstring(game:HttpGet("https://pastefy.app/UC2OHMhe/raw"))()
     end,
