@@ -234,6 +234,13 @@ trollingTab:CreateButton({
     end,
 })
 
+trollingTab:CreateButton({
+    name = "Admin Panel 1",
+    callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Admin-Panel-238222"))()
+    end,
+})
+
 local fescriptsTab = window:CreateTab({ name = "Fe Scripts", icon = 93364949241311 })
 
 fescriptsTab:CreateSection({ Name = "Animation" })
@@ -246,7 +253,7 @@ fescriptsTab:CreateButton({
 })
 
 fescriptsTab:CreateButton({
-    name = "R6 Animations",
+    name = "R6 Animation",
     callback = function()
         loadstring(game:HttpGet("https://pastefy.app/UC2OHMhe/raw"))()
     end,
@@ -270,4 +277,27 @@ funTab:CreateButton({
     end,
 })
 
+local adminTab = window:CreateTab({ name = "Admin", icon = 93364949241311 })
 
+admintab:CreateSection({ Name = "Admin" })
+
+adminTab:CreateButton({
+    name = "Admin Panel 1",
+    callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Admin-Panel-238222"))()
+    end,
+})
+
+adminTab:CreateButton({
+    name = "Infinite Yield",
+    callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source"))()
+    end,
+})
+
+adminTab:CreateButton({
+    name = "Nameless Admin",
+    callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))()
+    end,
+})
