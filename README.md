@@ -227,6 +227,13 @@ trollingTab:CreateButton({
     end,
 })
 
+trollingTab:CreateButton({
+    name = "Fling Gui 1",
+    callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sypcerr/scripts/refs/heads/main/UFGUI", true))()
+    end,
+})
+
 local fescriptsTab = window:CreateTab({ name = "Fe Scripts", icon = 93364949241311 })
 
 fescriptsTab:CreateSection({ Name = "Animation" })
@@ -256,6 +263,11 @@ funTab:CreateButton({
     end,
 })
 
-
+funTab:CreateButton({
+    name = "Welding Abuse",
+    callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/rangell8/Rexys-Welding-Hub/refs/heads/main/script"))()
+    end,
+})
 
 
