@@ -237,7 +237,7 @@ end })
 
 fescriptsTab:CreateSection({ Name = "Supports All Body Types" })
 
-fescriptsTab:CreateButton({ Name = "Uhhh Reanimate", Callback = function() 
+fescriptsTab:CreateButton({ Name = "Uhhh Reanimate (Netless)", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/source/reanim.lua"))()
 end })
 
